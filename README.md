@@ -1,19 +1,19 @@
-# 🏥 Basic Health Chatbot 🤖
+# 🏥 HealthBot - A Simple Health Chatbot 🤖
 
-The **Basic Health Chatbot** is a simple chatbot built using **Python** that provides general health advice based on user-input symptoms. It utilizes basic Natural Language Processing (NLP) techniques to understand symptoms and suggest possible causes or general health tips. This project is designed for educational purposes and can be expanded with AI/ML for better accuracy.
+HealthBot is a **basic health chatbot** built using **Python** that provides general health advice based on user-input symptoms. It uses a simple **rule-based approach** to recognize keywords in user queries and suggest basic medications or remedies.  
 
-## 🔹 Key Features
+## 🔹 Features
 ✅ Interactive chatbot for health-related queries  
 ✅ Provides basic symptom-based advice  
-✅ Simple rule-based or NLP-powered responses  
-✅ Scalable for AI/ML-based enhancements  
+✅ Simple keyword-based responses  
+✅ Easy to use and extend  
 
 ## 🔹 Technologies Used
 - **Python** 🐍  
-- **NLTK / spaCy** *(for NLP processing)*  
+- **Random module** (for varied responses)  
 
 ## 🔹 How It Works
-1. Users enter their symptoms through a chat interface.  
-2. The chatbot processes the input using NLP.  
-3. It responds with possible causes, health tips, or a suggestion to consult a doctor.  
-
+1. The chatbot analyzes the user’s input for keywords related to health symptoms.  
+2. It responds with general medical advice or medication suggestions.  
+3. If a keyword is not recognized, it asks for clarification.  
+4. The chatbot runs in a loop until the user says "bye".  
